@@ -42,5 +42,9 @@
     <string name="strNo">No</string>
     <string name="titleSelectDict">Select Dictionary</string>
     <string name="strName">Name</string>
-    <string name="txtFavourite">Favourite</string>      
+    <string name="txtFavourite">Favourite</string>
+    <string name="about">About</string>
+    <string name="aboutDetails">The dictionary is developed by Android-HaUI group !\n\nContact: android-haui@googlegroups.com</string>
+    <string name="txtPreferenceCatalog">General</string>
+    <string name="txtPreferenceCatalogAbout">About</string>      
 </resources>
