@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-	    <CheckBoxPreference android:key="checkEnableGesture"
-	        android:title="@string/strSettingEnableGesture"
-	        android:defaultValue="true"/>	   		        		
-		<ListPreference 
-		    
-		    android:key="selectLanguage"
-		    android:title="@string/strSettingUseLanguage"
-		    android:entryValues="@array/codeCountry"
-		    android:entries="@array/nameCountry"
-		    />
-		<EditTextPreference 
-		    android:key="setMaxHistory"
-		    android:title="@string/strSettingCountHistory"
-		    android:summary="EditTextPreference"
-		    android:shouldDisableView="true"		    
-		    />
+	
+    <PreferenceCategory
+        android:title="@string/txtPreferenceCatalog">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkEnableGesture"
+        android:title="@string/strSettingEnableGesture" />
+
+    <ListPreference
+        android:entries="@array/nameCountry"
+        android:entryValues="@array/codeCountry"
+        android:key="selectLanguage"
+        android:title="@string/strSettingUseLanguage" />
+
+    <EditTextPreference
+        android:key="setMaxHistory"
+        android:shouldDisableView="true"
+        android:summary="EditTextPreference"
+        android:title="@string/strSettingCountHistory" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/txtPreferenceCatalogAbout">
+    <Preference
+        android:key="about"
+        android:title="@string/about" >
+    </Preference>
+    </PreferenceCategory>
+
 </PreferenceScreen>
