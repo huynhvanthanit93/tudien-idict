@@ -42,5 +42,9 @@
     <string name="strNo">Không</string>
     <string name="titleSelectDict">Chọn từ điển</string>
     <string name="strName">Tên</string>
-    <string name="txtFavourite">Ưu thích</string>         
+    <string name="txtFavourite">Ưu thích</string>
+    <string name="about">Thông tin sản phẩm</string>
+    <string name="aboutDetails">Từ điển này được phát triển bởi nhóm Android-HaUI ! \n\nLiên hệ: android-haui@googlegroups.com</string>
+    <string name="txtPreferenceCatalog">Cài đặt chung</string>
+    <string name="txtPreferenceCatalogAbout">Thông tin sản phẩm</string>         
 </resources>
