@@ -41,6 +41,8 @@ public class ManageDB
 	public boolean checkEmpty()
 	{
 		File file=new File(pathDBs);
+		if(!file.exists())
+		    return true;
 		File[] listFile=file.listFiles();
 		if(listFile.length>0) return false;
 		else return true;
@@ -49,6 +51,7 @@ public class ManageDB
 	public String[] getNameDB()
 	{
 		File file=new File(pathDBs);
+		
 		File[] listFile=file.listFiles();
 		
 		int length=listFile.length;
