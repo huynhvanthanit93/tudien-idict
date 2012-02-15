@@ -304,7 +304,6 @@ public class idictActivity extends Activity implements OnGesturePerformedListene
 	{
 	    
 	    String s = sp.getString(key_language, "null");
-	    
 	    // kiem tra xem tu dien duoc chon khi truoc la gi thi khi mo lai lan
 	    // sau
 	    // chon dung tu dien do'
@@ -358,10 +357,9 @@ public class idictActivity extends Activity implements OnGesturePerformedListene
      * cai dat ngon ngu ma tu dien su dung de tra
      */
     private void setLanguageForDic(String lang)
-    {
+    {	
 	ManageDB.setDBSelected(lang);
 	qdb = new QueryDB(ManageDB.getDBSelected());
-	
 	SharedPreferences.Editor editor = sp.edit();
 	editor.remove(key_language);
 	editor.putString(key_language, lang);
