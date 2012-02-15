@@ -12,7 +12,7 @@ import android.os.Environment;
 public class ManageDB
 {
 	//duong dan toi folder chua co so du lieu
-	public static final String pathDBs=Environment.getExternalStorageDirectory()+"/idict/data/";
+	public static final String pathDBs=Environment.getExternalStorageDirectory()+"/idict/data";
 	public static final String pathDB=Environment.getExternalStorageDirectory()+"/idict";
 	
 	//duong dan toi co so du lieu duoc chon de tra tu
