@@ -187,10 +187,7 @@ public class AdapterLayoutListView extends BaseAdapter
 		}
 		qd.close();
 		
-		// webMean.loadDataWithBaseURL("", , "text/html", "UTF-8",
-		// null);
 		
-		// dua tu vao file history.
 		
 		Intent i = new Intent(context, ViewContextActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		Bundle bundle = new Bundle();
@@ -200,14 +197,7 @@ public class AdapterLayoutListView extends BaseAdapter
 		bundle.putInt("id", listId.get(position));
 		i.putExtras(bundle);
 		
-		// luu vao dataBase
-		/*
-	         * qd= new QueryDB(ManageDB.getDBSelected(),"history");
-	         * qd.openEnableEdit(); if(qd.insertQuery(listId.get(position),
-	         * listWord.get(position).word,20)!=-1) { Log.d("thuc hien",
-	         * "da insert"); } else Log.d("thuc hien", "not insert");
-	         * qd.close(); <<<<<<< .mine
-	         */
+		
 		if (kiemtra == true)
 		{
 		    long l = System.currentTimeMillis();

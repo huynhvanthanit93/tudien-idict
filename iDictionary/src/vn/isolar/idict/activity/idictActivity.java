@@ -104,7 +104,7 @@ public class idictActivity extends Activity implements OnGesturePerformedListene
 	VE = getResources().getString(R.string.txtVE);
 	VV = getResources().getString(R.string.txtVV);
 	
-	listDict = setAdapterForSpinner();
+	
 	btgetDict.setOnClickListener(new View.OnClickListener()
 	{
 	    
@@ -391,6 +391,7 @@ public class idictActivity extends Activity implements OnGesturePerformedListene
 	}
 	else
 	{
+	    listDict = setAdapterForSpinner();
 	    String keylanguage = sp.getString(key_language, "");
 	    if (keylanguage.equals(nameDBEV))
 		btgetDict.setText(R.string.txtEV);
