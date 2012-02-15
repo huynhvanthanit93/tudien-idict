@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+     <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:paddingBottom="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="right|bottom"
+            android:paddingRight="10dip"
+            android:textStyle="bold"
+            android:textSize="18dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            style="@android:style/TextAppearance.WindowTitle"
+            android:text="@string/strTyped"
+            android:id="@+id/titleHistory"
+            android:layout_marginLeft="10dip" />
+    </LinearLayout>
+
+    <ListView
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1"
+
+        android:scrollingCache="true"
+        android:soundEffectsEnabled="true" >
+    </ListView>
+
+</LinearLayout>

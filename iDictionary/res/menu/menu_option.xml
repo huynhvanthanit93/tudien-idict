@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+
+    >
+
+    <item
+        android:id="@+id/itemSetting"
+        android:title="@string/setting" android:icon="@drawable/ic_setting"/>
+    <item
+        android:id="@+id/itemManageGesture"
+        android:title="@string/strmanageGesture" android:icon="@drawable/icon_manage_gesture"/>
+    <item
+        android:id="@+id/itemChecked"
+        android:title="@string/strTyped" android:icon="@drawable/icon_history"/>
+    <item
+        android:id="@+id/itemFavourite"
+        android:title="@string/strFavourite" android:icon="@drawable/ic_favoris"/>
+
+</menu>

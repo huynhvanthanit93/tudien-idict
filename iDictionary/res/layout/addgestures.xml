@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/logo" />
+
+        <TextView
+            style="@android:style/TextAppearance.WindowTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginLeft="10dip"
+            android:gravity="right|bottom"
+            android:paddingRight="10dip"
+            android:text="@string/manage_gesuture_name"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+
+            android:text="@string/strName"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:id="@+id/btnName"
+            android:layout_weight="1"
+            android:layout_width="0.0dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <android.gesture.GestureOverlayView
+            android:id="@+id/gestureOverlay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gestureStrokeType="multiple" >
+        </android.gesture.GestureOverlayView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnSave" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnCancel" />
+    </LinearLayout>
+
+</LinearLayout>

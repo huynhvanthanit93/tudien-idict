@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">iDict</string>
+    <string name="app_name">Dictionary</string>
+    <string name="txtListGestures">Danh sách các Gestures</string>
+    <string name="btnAdd">Thêm</string>
+    <string name="btnCancel">Trở lại</string>
+    <string name="txtNewGesture">Nhập tên Gesture</string>
+    <string name="txtNamegesture">Tên gesture</string>
+    <string name="btnSave">Lưu</string>
+    <string name="menuNewGesture">Thêm gesture</string>
+    <string name="txtRename">Đổi tên</string>
+    <string name="redraw">Vẽ lại gesture</string>
+    <string name="manage_gesuture_name">Tạo mới gesture</string>
+    <string name="list_gesture">Danh sách gesture</string>    
+    <string name="setting">Cài đặt</string>
+    <string name="strmanageGesture">Quản lý gesture</string>
+    <string name="strFavourite">Từ ưu thích</string>
+    <string name="strTyped">Lịch sử</string>    
+    <string name="strSettingGesture">Cài đặt gesture</string>
+    <string name="defaultListFirst">Chọn danh sách đầu tiên</string>    
+    <string name="strSettingEnableGesture">Sử dụng gesture</string>
+    <string name="strSettingUseLanguage">Chọn ngôn ngữ</string>
+    <string name="strSettingCountHistory">Tối đa lịch sử</string>
+    <string name="strLike">Ưu thích</string>
+    <string name="txtEmptyDB">Chưa có cơ sở dữ liệu. Hãy tải cơ sở dữ liệu từ  &lt;a href=&quot;http://code.google.com/p/isolar-dictionary-full/downloads/list&quot;&gt; đây &lt;/a&gt; và đặt vào thư mục idict/data trong sdcard</string>
+    <string name="txtDicEV">Từ điển Anh - Việt</string>
+    <string name="txtDicVE">Từ điển Việt Anh</string>
+    <string name="txtDicVV">Từ điển Việt</string>
+    <string name="txtNotifySelectLanguage">Chọn ngôn ngữ</string>
+    <string name="txtEV">A-V</string>
+    <string name="txtVV">V-V</string>
+    <string name="txtVE">V-A</string>
+    <string name="txtTyping">Gõ từ</string>
+    <string name="gesRename">Đổi tên</string>
+    <string name="gesDelete">Xóa</string>   
+    <string name="delete_all">Xóa hết</string>
+    <string name="delete_select">Chọn Xóa</string>
+    <string name="titleDeleteGesture">Bạn chắc chắn muốn xóa không?</string>
+    <string name="titleNameGesture">Nhập tên mới</string>
+    <string name="strYes">Có</string>
+    <string name="strNo">Không</string>
+    <string name="titleSelectDict">Chọn từ điển</string>
+    <string name="strName">Tên</string>
+    <string name="txtFavourite">Ưu thích</string>         
+</resources>

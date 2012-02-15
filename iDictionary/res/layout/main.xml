@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="2dip"    
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" >
+
+            <EditText
+                android:id="@+id/autoComplete"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txtTyping"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7" >
+            <Button
+                android:id="@+id/btgetDict"
+                style="@android:style/Widget.Spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="A-V" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gesture_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gestureStrokeType="multiple" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_listview" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/txtEmptyDB"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:editable="false"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/txtEmptyDB"
+            android:visibility="invisible" />
+    </android.gesture.GestureOverlayView>
+
+</LinearLayout>

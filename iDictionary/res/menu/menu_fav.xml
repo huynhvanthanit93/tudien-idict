@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuDeleteAll"
+        android:icon="@drawable/icon_delete"
+        android:title="@string/delete_all"></item>
+
+    <item
+        android:id="@+id/menuDeleteSelect"
+        android:icon="@drawable/icon_select_delete"
+        android:title="@string/delete_select"></item>
+
+</menu>
