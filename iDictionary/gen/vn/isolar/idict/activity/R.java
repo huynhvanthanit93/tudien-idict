@@ -103,6 +103,8 @@ public final class R {
         public static final int history=0x7f050000;
     }
     public static final class string {
+        public static final int about=0x7f09002b;
+        public static final int aboutDetails=0x7f09002c;
         public static final int app_name=0x7f090001;
         public static final int btnAdd=0x7f090003;
         public static final int btnCancel=0x7f090004;
@@ -142,6 +144,8 @@ public final class R {
         public static final int txtNamegesture=0x7f090006;
         public static final int txtNewGesture=0x7f090005;
         public static final int txtNotifySelectLanguage=0x7f09001b;
+        public static final int txtPreferenceCatalog=0x7f09002d;
+        public static final int txtPreferenceCatalogAbout=0x7f09002e;
         public static final int txtRename=0x7f090009;
         public static final int txtTyping=0x7f09001f;
         public static final int txtVE=0x7f09001e;

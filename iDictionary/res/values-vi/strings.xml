@@ -23,7 +23,7 @@
     <string name="strSettingUseLanguage">Chọn ngôn ngữ</string>
     <string name="strSettingCountHistory">Tối đa lịch sử</string>
     <string name="strLike">Ưu thích</string>
-    <string name="txtEmptyDB">Chưa có cơ sở dữ liệu. Hãy tải cơ sở dữ liệu từ  &lt;a href=&quot;http://code.google.com/p/isolar-dictionary-full/downloads/list&quot;&gt; đây &lt;/a&gt; và đặt vào thư mục idict/data trong sdcard</string>
+    <string name="txtEmptyDB">Chưa có cơ sở dữ liệu. Hãy tải cơ sở dữ liệu từ  &lt;a href=&quot;http://code.google.com/p/tudien-idict/downloads/list&quot;&gt; đây &lt;/a&gt; và đặt vào thư mục idict/data trong sdcard</string>
     <string name="txtDicEV">Từ điển Anh - Việt</string>
     <string name="txtDicVE">Từ điển Việt Anh</string>
     <string name="txtDicVV">Từ điển Việt</string>
