@@ -1,59 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="vn.isolar.idict.activity"
+    package="com.android"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk android:minSdkVersion="8" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-
     <application
-        android:icon="@drawable/logo"
-        android:theme="@android:style/Theme.Black.NoTitleBar"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
-        <activity
-            android:name=".idictActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="vn.isolar.idict.managegesture.CreateNewGesture"
-            android:label="@string/manage_gesuture_name" >
-            <intent-filter>
-                <action android:name="com.khmt2k3.xuantung.managegesture.CreateNewGesture" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="vn.isolar.idict.managegesture.ListGestures"
-            android:label="@string/list_gesture" >
-            <intent-filter>
-                <action android:name="com.khmt2k3.xuantung.managegesture.ListGestures" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name="SettingActivity"
-            android:label="@string/setting" >
-        </activity>
-        <activity
-            android:name="ViewContextActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-        <activity android:name="FavouriteActivity" >
-        </activity>
-        <activity android:name="vn.isolar.idict.activity.HistoryActivity"
-            android:label="History" >
-        </activity>
     </application>
 
 </manifest>

@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
- 	<string name="hello">iDict</string>
-    <string name="app_name">Dictionary</string>
-    <string name="txtListGestures">List Gestures</string>
-    <string name="btnAdd">Add</string>
-    <string name="btnCancel">Back</string>
-    <string name="txtNewGesture">Input Name Gesture</string>
-    <string name="txtNamegesture">Name Gesture</string>
-    <string name="btnSave">Save</string>
-    <string name="menuNewGesture">Add Gesture</string>
-    <string name="txtRename">Change Name</string>
-    <string name="redraw">Replay Draw Gesture</string>
-    <string name="manage_gesuture_name">Create New Gesture</string>
-    <string name="list_gesture">List Gesture</string>
-    <string name="setting">Setting</string>
-    <string name="strmanageGesture">Manage Gesture</string>
-    <string name="strFavourite">Favourite</string>
-    <string name="strTyped">History</string>    
-    <string name="strSettingGesture">Setting Gesture</string>
-    <string name="defaultListFirst">The first list shows</string>    
-    <string name="strSettingEnableGesture">Enable Gesture</string>
-    <string name="strSettingUseLanguage">Select Language</string>
-    <string name="strSettingCountHistory">Max History</string>
-    <string name="strLike">Like</string>
-    <string name="txtEmptyDB">There is no database. Please, Download database from &lt;a href=&quot;http://code.google.com/p/isolar-dictionary-full/downloads/list&quot;&gt; here &lt;/a&gt; and put on idict/data folder in sdcard</string>
-    <string name="txtDicEV">English Vietnamese Dictionary</string>
-    <string name="txtDicVE">Vietnamese English Dictionary</string>
-    <string name="txtDicVV">Vietnamese Dictionary</string>
-    <string name="txtNotifySelectLanguage">Select a language</string>
-    <string name="txtEV">E-V</string>
-    <string name="txtVV">V-V</string>
-    <string name="txtVE">V-E</string>
-    <string name="txtTyping">Enter words</string>
-    <string name="gesRename">Rename</string>
-    <string name="gesDelete">Delete</string>
-    <string name="delete_all">Delete All</string>
-    <string name="delete_select">Select delete</string>
-    <string name="titleDeleteGesture">Are you sure?</string>
-    <string name="titleNameGesture">New Name</string>
-    <string name="strYes">Yes</string>
-    <string name="strNo">No</string>
-    <string name="titleSelectDict">Select Dictionary</string>
-    <string name="strName">Name</string>
-    <string name="txtFavourite">Favourite</string>
-    <string name="about">About</string>
-    <string name="aboutDetails">The dictionary is developed by Android-HaUI group !\n\nContact: android-haui@googlegroups.com</string>
-    <string name="txtPreferenceCatalog">General</string>
-    <string name="txtPreferenceCatalogAbout">About</string>      
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">IDictionary</string>
+
 </resources>
